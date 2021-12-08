@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ecmascript Concepts </title>
+        <meta charset="utf-8" />
+
+        <link href="stylesheets/styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="javascripts/scripts.js"></script>
+        <script type="text/javascript">
+
+            async function myDisplayer() {
+                let myPromise = new Promise(function(myResolve, myReject) {
+                    let x = 0;
+                    if(x == 0) {
+                        myResolve("Ok!");
+                    } else {
+                        myReject("Failed!");
+                    }
+                });
+
+                document.getElementById("show").innerHTML = await myPromise;
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div id="show"></div>
+            <script type="text/javascript">
+                myDisplayer();
+                document.write("the above statements are...");
+            </script>
+        </div>
+    </body>
+</html>

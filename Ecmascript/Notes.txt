@@ -1,0 +1,17 @@
+-> Ecmascript:
+    - ecmascript is a javascript meant to ensure the interoparability (ability of computer systems or software to exchange and make use of information) of web pages across different web browsers.
+    - emca: europoen computer manufacturers association
+    - features: 
+
+        1. block scope variables
+        2. classes
+        3. promises
+        4. modules
+
+-> declaring the identifiers with let, const
+-> checking with global and local scope of the declared identifiers
+-> functions, passing parameters and arrow functions
+-> default arguments
+-> spread operators
+-> map object - set and get 
+-> promise

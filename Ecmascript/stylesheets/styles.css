@@ -1,0 +1,13 @@
+* {
+    margin: 0px auto;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.wrapper {
+    width: 992px;
+    background-color: #fff;
+    padding: 10px 15px;
+}

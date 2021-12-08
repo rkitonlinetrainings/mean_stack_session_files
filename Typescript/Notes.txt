@@ -1,0 +1,17 @@
+-> typescript: 
+    - typescript is a superset of javascript
+    - it is open source programming language
+    - it has a single open source compiler
+    - it is case sensitive
+    - it is purely wriiten with object's concept
+    - it is having a security
+    - the goal of typescript is to help catch the mistakes early through th type system and make javascript development more effectively
+    - its runs the code through command line
+
+-> setup: 
+    -> node && npm
+    -> npm install -g typescript
+    -> create a file with .ts 
+    -> tsc filename.ts (compile)
+    -> node filename.js (to run)
+

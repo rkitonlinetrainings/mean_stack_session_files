@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ecmascript Concepts </title>
+        <meta charset="utf-8" />
+
+        <link href="stylesheets/styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="javascripts/scripts.js"></script>
+        <script type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <script type="text/javascript">
+                let prgLngs = ["selenium", "java", ".net", "php"];
+                for(let i = 0; i < prgLngs.length; i++) {
+                    document.write("the value of prgLngs[" + i + "]: " + prgLngs[i] + "<br />");
+                }
+                document.write("----------------------------------------<br />");
+
+                for(let value of prgLngs) {
+                    document.write("the value : " + value + "<br />");
+                }
+                
+            </script>
+        </div>
+    </body>
+</html>

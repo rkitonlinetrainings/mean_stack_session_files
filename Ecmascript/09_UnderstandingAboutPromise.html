@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ecmascript Concepts </title>
+        <meta charset="utf-8" />
+
+        <link href="stylesheets/styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="javascripts/scripts.js"></script>
+        <script type="text/javascript">
+            function myDisplayer(someVal) {
+                document.getElementById("show").innerHTML = someVal;
+            }
+
+            let myPromise = new Promise(function(myResolve, myReject) {
+                let x = 10;
+                if(x == 0) {
+                    myResolve("Yes, It's matching!");
+                } else {
+                    myReject("No, It's not matching!");
+                }
+            })
+        </script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div id="show"></div>
+            <script type="text/javascript">
+                myPromise.then(
+                    function(response) {
+                        myDisplayer(response + "as the condition success");
+                    }, 
+                    function(error) {
+                        myDisplayer(error + "as the condition failed");
+                    }
+                )
+            </script>
+        </div>
+    </body>
+</html>

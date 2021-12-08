@@ -1,0 +1,10 @@
+var first_name = "kuo";
+var last_name = "wer";
+var age = 34;
+var score1 = 23;
+var score2 = 87;
+var user_status = true;
+console.log("full name : " + first_name + " " + last_name);
+console.log("age: " + age);
+console.log("score : " + (score1 + score2));
+console.log("user status: " + user_status);

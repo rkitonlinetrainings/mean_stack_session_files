@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ecmascript Concepts </title>
+        <meta charset="utf-8" />
+
+        <link href="stylesheets/styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="javascripts/scripts.js"></script>
+        <script type="text/javascript">
+            // without spread operators (or) array format
+            let sumOfElements1 = (args) => {
+                document.write("the value of args:" + args + "<br />");
+                let sum = 0;
+                for(let item of args) {
+                    sum += item;
+                }
+                document.write("the sum of elements: " + sum + "<br />");
+            }
+
+            // with spread operators
+            let sumOfElements2 = (...args) => {
+                document.write("the value of args:" + args + "<br />");
+                let sum = 0;
+                for(let item of args) {
+                    sum += item;
+                }
+                document.write("the sum of elements: " + sum + "<br />");
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <script type="text/javascript">
+                sumOfElements1([1, 2, 3, 4, 5]);
+                document.write("----------------------------------------<br />");
+
+                sumOfElements2(1, 2, 3, 4, 5);
+            </script>
+        </div>
+    </body>
+</html>

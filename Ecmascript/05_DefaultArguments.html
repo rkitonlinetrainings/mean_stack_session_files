@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ecmascript Concepts </title>
+        <meta charset="utf-8" />
+
+        <link href="stylesheets/styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="javascripts/scripts.js"></script>
+        <script type="text/javascript">
+            let accessUser = (name = "paul", age = 19) => {
+                let usr = "the value of name: " + name + ", and age: " + age + "!<br />";
+                document.getElementById("show").innerHTML += usr;
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div id="show"></div>
+
+            <script type="text/javascript">
+                let name = "jahn";
+                let age = 23;
+
+                accessUser(name, age);
+                document.write("----------------------------------------<br />");
+
+                accessUser(name);
+                document.write("----------------------------------------<br />");
+
+                accessUser();
+            </script>
+        </div>
+    </body>
+</html>

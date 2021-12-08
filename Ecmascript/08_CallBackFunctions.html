@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ecmascript Concepts </title>
+        <meta charset="utf-8" />
+
+        <link href="stylesheets/styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="javascripts/scripts.js"></script>
+        <script type="text/javascript">
+            function myDisplayer(someVal) {
+                document.getElementById("result").innerHTML = "the final value: " + someVal + "!<br />";
+            }
+
+            function myCalculator(n1, n2, callBack) {
+                let n3 = (n1 * n2);
+                callBack(n3);
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div id="result"></div>
+            <script type="text/javascript">
+                myCalculator(5, 4, myDisplayer);
+            </script>
+        </div>
+    </body>
+</html>

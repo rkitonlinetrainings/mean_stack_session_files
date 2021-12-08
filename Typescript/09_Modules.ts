@@ -1,0 +1,1 @@
+import iUser = require("./IUser");
