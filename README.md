@@ -1,4 +1,4 @@
-# pragati_holcim_angular_batch_dec6
+# pragati_holcim_angular_batch_dec7
 Ecmascript, Typescript, Angular - Training Coding Files
 
 session_1
