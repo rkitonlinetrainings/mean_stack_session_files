@@ -1,0 +1,76 @@
+-> angular: 
+	- an angular is a platform and javascript framework
+	- for building the single page applications using Html, Css, Bootstrap and Typescript
+	- it implements core and optional functionality as a a set of typescript libraries that you import into your applications
+	
+-> the architecture of an angular relies on certain fundamental concepts:
+	terms:
+		1. Template
+		2. Directive - (meta data)
+		3. Component
+		4. Injector
+		5. Module
+		
+-> single page applications:
+	- an angular is a javascript frontend web framework based on bi-directional ui data binding
+	- is used to design single page applications
+	- the applications that load a single Html page and only a part of the page will be updated instead of the entire page - based on the user actions (click, hover, drag, etc.)
+
+-> who are implementing the single page applications: 
+	- gmail, google maps, airbnb, netflix etc.,
+	
+-> when angular can use?
+	- it's called the safe navigation operator which can be used to prevent angular from throwing errors, when trying to access object properties of an object that doesn't exist
+	
+-> setup an env., and creating the project:
+	- install node and npm - 14v
+	- npm install -g @angular/cli
+	- ng --version
+	
+	to create a new project
+	- ng new yourappname
+		1. routing (y)
+		2. style - css (select) / stylus / less / scss
+	- ng serve (or) npm starts
+	
+		
+-> to create a responsive: 
+	- bootstrap: npm install --save bootstrap
+	- in angular.json file: "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+	
+-> creating the new custom component
+	- adding styles to it
+	- declaring the property(s) in side the class defin., of component
+	- accessing or interpolation or one way property binding - {{ }}
+	
+	- to set the component as the landing page 
+		1. the name of the component should be declared and needs to specify under bootstrap: [] - app.module.ts
+		2. in index.html file - needs to specify the given selector of that component
+		
+	(or)
+	
+	- creating new component with command
+		- ng generate component <compname>
+
+	
+-> property binding: 
+	- displaying the value of property in html
+	- there are two types: 
+		1. one way property binding - {{propertyName}}
+		2. two way property binding - user can input the values
+			1. template driven 
+			2. reactive form
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
