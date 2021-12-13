@@ -1,3 +1,5 @@
+sessions from 7th dec - 10th dec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -> angular: 
 	- an angular is a platform and javascript framework
 	- for building the single page applications using Html, Css, Bootstrap and Typescript
@@ -61,9 +63,29 @@
 			1. template driven 
 			2. reactive form
 	
+
+-> template driven
+	- ngForm
+	- ngModel
 	
+	- (event) = "methodName(parameters)"
+	- custome method definition
+
+sessions from 13th dec - 17th dec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-> custom (or) template driven form validation
+	- ngForm
+	- ngModel
 	
+	- [(ngModel)]=""
+	- #idName="ngModel"
 	
+	- submitted, invalid
+	- errors, errors.invalid
+	- errors.email
+	- errors.minlength
+	
+	- [ngClass]="{'is-invalid': ...}"
 	
 	
 	
