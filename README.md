@@ -43,4 +43,25 @@ session_4
 
 session_5
 -------------------------------------
+1. recap the things which discussed in last weeek
+2. template driven with form validation
+3. reactive form with form validation started
 
+session_6
+-------------------------------------
+
+
+session_7
+-------------------------------------
+
+
+session_8
+-------------------------------------
+
+
+session_9
+-------------------------------------
+
+
+session_10
+-------------------------------------
