@@ -74,6 +74,8 @@ sessions from 7th dec - 10th dec
 sessions from 13th dec - 17th dec
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -> custom (or) template driven form validation
+	- modules: formsmodule
+	
 	- ngForm
 	- ngModel
 	
@@ -86,6 +88,15 @@ sessions from 13th dec - 17th dec
 	- errors.minlength
 	
 	- [ngClass]="{'is-invalid': ...}"
+
+-> reactive form validation
+	- modules: ReactiveFormsModule, 
+	- component level modules: FormBuilder, FormGroup, Validators
+
+	- [ngClass]
+	- *ngIf
+	- *ngFor
+
 	
 	
 	
