@@ -49,19 +49,18 @@ session_5
 
 session_6
 -------------------------------------
-
+1. cont., reactive form validation
 
 session_7
 -------------------------------------
+1. cont., with reactive form validation and discussed
 
+overall session_5, session_6 and session_7
+-------------------------------------------------------------------
+1. discussed about two property binding
+2. template forms, template form validation, 
+3. reactive form validation
+4. builin directives: *ngIf, *ngFor, [ngClass]
+5. event handlers: (click), (ngSubmit)
+6. and additional things
 
-session_8
--------------------------------------
-
-
-session_9
--------------------------------------
-
-
-session_10
--------------------------------------
