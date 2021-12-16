@@ -74,7 +74,7 @@ sessions from 7th dec - 10th dec
 sessions from 13th dec - 17th dec
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -> custom (or) template driven form validation
-	- modules: formsmodule
+	- modules: FormsModule
 	
 	- ngForm
 	- ngModel
@@ -99,6 +99,29 @@ sessions from 13th dec - 17th dec
 
 	
 	
+-> let's discuss the few differences between template driven and reactive
+	- the Template Driven Forms are Asynchronous (Non - Blocking) 
+	- whereas, the Reactive Forms are Synchronous (Blocking)
+
+	- in Template Driven most of the 'logic' is driven from the Template
+	- in Reactive, the logic resides mainly in the component or typescript code
+	
+	- the Template Driven approach would be easier or familiar for those who coming from AngularJS v1
+	- the Reactive approach removes the core validation logic from the Template and hence make the Template code quite clean
+	
+-> Creating the Routing in Angular:
+	- Enabling Routing and Navigation Service
+	- Routing allows users to Navigate between one page (component) to another page (component) based on the action taken by user,
+	
+	- static: routerLink = "/home"; 
+	- in app-routing.module.ts
+		{ path: "/home", component: HomeComponent }
+
+	- dynamic: [routerLink] = "/page/:variable"
+	
+-> Creating the Template or Layout with Custom CSS and Routing
+	
+
 	
 	
 	
