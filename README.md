@@ -51,9 +51,11 @@ session_6
 -------------------------------------
 1. cont., reactive form validation
 
+
 session_7
 -------------------------------------
 1. cont., with reactive form validation and discussed
+
 
 overall session_5, session_6 and session_7
 -------------------------------------------------------------------
@@ -63,4 +65,16 @@ overall session_5, session_6 and session_7
 4. builin directives: *ngIf, *ngFor, [ngClass]
 5. event handlers: (click), (ngSubmit)
 6. and additional things
+
+
+session_8
+-------------------------------------
+1. discussed about the reactive form validation, and completed
+2. discussed about the differences between the template and reactive form
+3. discussed about the implemented builtin directives 
+4. created a concept of routing with group of components (static & dynamic urls)
+5. started the concept of css grid template with routing
+
+session_9
+-------------------------------------
 
