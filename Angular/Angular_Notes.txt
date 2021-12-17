@@ -118,8 +118,65 @@ sessions from 13th dec - 17th dec
 		{ path: "/home", component: HomeComponent }
 
 	- dynamic: [routerLink] = "/page/:variable"
+
+-> Directives in Angular:
+	- Directives are DOM elements to interact with your applications.
+	- Directive is a TypeScript Function.
+	- When this function executes the Angular Compiler checked it inside the DOM element.
 	
--> Creating the Template or Layout with Custom CSS and Routing
+	- DOM?
+		- DOM is used to define a standard for accessing documents.
+		- Html DOM model is constructed as a tree of objects. 
+		- It is a standard object model to access html elements
+		
+		- we can use DOM model in Angular
+			- Navigate the document structure with DOM elements
+			- Add Html elements
+			- Update elements
+	
+	- Angular directive begins with ng stands for Angular and extends Html tags with @directive decorator
+	- Directives enables logic to be included in the Angular Templates.
+	
+	- Angular directives are categorized into 3 
+		1. Component Directives
+		2. Structual Directives
+		3. Attribute Directives
+		
+	1. Component Directives: 
+		- Component Directives are used in Main Class.
+		- They contain the detail of How the Component should be Processed, Instantiate and used at Runtime.
+		- Component can be used as Directives. 
+		- Every Component has Input and Output option to pass between component and its parent HTML elements
+
+		Syntax: <component-selector-name [input-reference]="input-value"> ... </component-selector-name>
+		Example: <list-item [items]="products"> ... </list-item>
+		
+		
+	2. Structual Directives: 
+		- The Structual Directives start with a '*' sign.
+		- These Directive are used to manipulate and changee the structure of the DOM elements
+		- Used to add or remove DOM elements in the current Html document
+		
+		Syntax: <html-selector-name *DirectiveName="itsValue"> ... </html-selector-name> 
+		Example: <p *ngIf="true"> .. </p>
+		
+		Some List of Structual Directives: *ngIf, *ngFor, *ngSwitch
+		
+		*ngIf - It allows us to add / remove the DOM element
+		*ngSwitch - allows us to add / remove the DOM element. It is similar to Switch statement
+		*ngFor - It is used to repeat a portion of Html element once per each item form an iterable list
+	
+	3. Attribute Directives: 
+		- It is used to look and behaviour of the DOM elements
+		- Used to add new directives for thhe existing Html elements to change its look and behaviour
+		
+		Syntax: <html-selector-name [attriName]="itsValue" >
+		Example: <p [ngStyle]=""> .. </p>
+	
+		Some List of Attribute Directives: ngClass, ngStyle
+		
+		
+-> Creating the Template or Layout with Custom CSS and Routing: 
 	
 
 	
