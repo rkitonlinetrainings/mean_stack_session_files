@@ -1,0 +1,120 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 mt-4">
+      <h1 class="text-center">User List</h1>
+      <table class="table table-bordered table-striped table-hover">
+        <thead>
+          <tr>
+            <th class="text-center">Id</th>
+            <th class="text-center">First Name</th>
+            <th class="text-center">Last Name</th>
+            <th class="text-center">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
+            <td>
+              <button type="button" class="btn btn-info btn-sm mr-2" (click)="showEditUserForm(user)"> edit &raquo; </button>
+
+              <button type="button" class="btn btn-danger btn-sm mr-2" (click)="removeUser(user)"> delete &raquo; </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 mt-4">
+      <button type="button" class="btn btn-primary" (click)="showAddUserForm()"> show add new user </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 mt-4">
+      <form *ngIf="userForm">
+        <h2> add new user </h2>
+
+        <hr />
+
+        <fieldset class="form-group">
+          <div class="row">
+            <label class="col-md-3"> First Name </label>
+            <div class="col-md-6">
+              <input type="text" class="form-control" name="firstName" 
+              [(ngModel)]="newUser.firstName" />
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <div class="row">
+            <label class="col-md-3"> Last Name </label>
+            <div class="col-md-6">
+              <input type="text" class="form-control" name="lastName" [(ngModel)]="newUser.lastName" />
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <div class="row">
+            <div class="col-sm-12">
+
+              <button type="button" class="btn btn-sucess mr-2" (click)="saveUser(newUser)"> submit </button>
+
+              <button type="button" class="btn btn-secondary" (click)="cancelNewUser()"> cancel </button>
+
+            </div>
+          </div>
+        </fieldset>
+
+      </form>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <form *ngIf="editUserForm">
+      <h2> edit user details </h2>
+      
+      <hr />
+
+      <fieldset class="form-group">
+        <div class="row">
+          <label class="col-md-3"> First Name </label>
+          <div class="col-md-6">
+            <input type="text" class="form-control" name="firstName" [(ngModel)]="editedUser.firstName" />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group">
+        <div class="row">
+          <label class="col-md-3"> Last Name </label>
+          <div class="col-md-6">
+            <input type="text" class="form-control" name="lastName" [(ngModel)]="editedUser.lastName" />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group">
+        <div class="row">
+          <div class="col-sm-12">
+
+            <button type="button" class="btn btn-sucess mr-2" (click)="updateUser()"> submit </button>
+
+            <button type="button" class="btn btn-secondary" (click)="cancelEdits()"> cancel </button>
+
+          </div>
+        </div>
+      </fieldset>
+
+      </form>
+    </div>
+  </div>
+
+</div>

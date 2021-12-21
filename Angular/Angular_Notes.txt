@@ -177,7 +177,56 @@ sessions from 13th dec - 17th dec
 		
 		
 -> Creating the Template or Layout with Custom CSS and Routing: 
+	- css: grid-<>
 	
+-> Crud Operations:
+	- two way property binding with template driven
+	- created the model and service
+	- accessing the service into the component
+	
+-> Lazy Loading: 
+	- lazy loading is a technique in angular that allows you to load javascript components asynchronously when a specific route is activated. 
+	- it improves the speed of the application loading time by splitting the application into several bundles.
+	- when the user navigates through the application the bundles are loaded as required.
+	
+	- ViewContainerRef: 
+		- ViewContainerRef represents a container where one or more views can be attached.
+		- the first thing to mention here is that any DOM element can be used as a View Container
+		- Angular doesn't insert views inside the element but appends then after the element bound to ViewContainer
+		
+	- ComponentFactoryResolver: 
+		- a simple registry that maps Components to generated ComponentFactory classes that can be used to Create Instance of Components.
+		- use to obtain the factory for a given component type, then the factory's create() method to create a component.
+
+	- ViewChild: 
+		- a ViewChild is a Component, Directive or Element as a part of a Template.
+		- If we want to access to a Child Component, Directive, or Element inside the Parent Component, 
+			we use @ViewChild()
+		- since the Child Component can be located inside the Parent Component it can be accesse as @ViewChild
+		
+	- ElementRef: 
+		- the ElementRef is a wrapper around a Native Element inside of a View.
+		- It's simply a Class that wraps Native DOM elements inside the browser and allows you to work with the DOM by providing the nativeElement object which exposes all the Methods and Properties of the Native Elements
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	
 	
