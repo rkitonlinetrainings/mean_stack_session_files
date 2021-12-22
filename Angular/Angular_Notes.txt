@@ -208,6 +208,28 @@ sessions from 13th dec - 17th dec
 		- the ElementRef is a wrapper around a Native Element inside of a View.
 		- It's simply a Class that wraps Native DOM elements inside the browser and allows you to work with the DOM by providing the nativeElement object which exposes all the Methods and Properties of the Native Elements
 		
+	-> Custom Directives:
+		- creating the custom directive which executes your program and drives through the output
+		
+		These are the modules that we are using in creating the Custom Directive
+		- Directive 
+		- ElementRef
+		- Input 
+		- Renderer2
+		
+		<app-root>
+		[appInputBox]
+		
+		class .. {
+			
+		}
+		
+		
+ 	-> Pipes: 
+		- pipes are a simple way to transform values in an angular template
+		
+	-> Custom Pipes: 
+		
 
 
 

@@ -85,4 +85,8 @@ session_11 (21st dec, 2021 - tuesday)
 
 session_12 (22nd dec, 2021 - wednesday)
 -------------------------------------
+1. custom directives
+2. builtin pipes and custom pipes
 
+session_13 (23rd dec, 2021 - thursday)
+-------------------------------------
