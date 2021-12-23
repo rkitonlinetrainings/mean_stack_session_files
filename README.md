@@ -93,4 +93,4 @@ session_12 (22nd dec, 2021 - wednesday)
 
 session_13 (23rd dec, 2021 - thursday)
 -------------------------------------
-
+1. life cycle hooks (onchanges, oninit, etc.,)
