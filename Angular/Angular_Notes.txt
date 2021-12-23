@@ -13,6 +13,15 @@ sessions from 7th dec - 10th dec
 		4. Injector
 		5. Module
 		
+-> component: 
+	- the components are the basic ui building blocks of an angular application.
+	- angular application contains a tree structure of angular components.
+	- angular components are a subset of directives always associated with a template.
+	- unlike other directives, only one ie., component can be instantiated for a given element in a template.
+	
+	- types of components: 1. parent and 2. child
+	
+	
 -> single page applications:
 	- an angular is a javascript frontend web framework based on bi-directional ui data binding
 	- is used to design single page applications
@@ -227,18 +236,51 @@ sessions from 13th dec - 17th dec
 		
  	-> Pipes: 
 		- pipes are a simple way to transform values in an angular template
+		- have some builtin pipes: uppercase, lowercase, date, currency, json etc., 
 		
 	-> Custom Pipes: 
+		- writing the custom code (or) custom definition for the name of the pipe which we have given to apply to our value(s)
 		
+	-> Life Cycle Hooks: 
+		- the life cycle hooks are methods that angular invokes on directives and components 
+		- as it creates, destroys
+		- they can fine tune behavior of components during creation, updation, destruction
+		
+		- when an angular application starts, it creates and renders the root component
+		- then it create its children and renders it
+		- for each loaded component, it checks and when its data bound properties change and update them
+		- it destroys the component and removes from the dom when no longer required
+		
+		- there are different types of life cycle hooks: 
+			1. ngOnChanges
+			2. ngOnInit
+			3. ngDoCheck
+			4. ngAfterContentInit
+			5. ngAfterContentChecked
+			6. ngAfterViewInit
+			7. ngAfterViewChecked
+			8. ngOnDestroy
+			
+		- OnInit: it is to 'initialize the directive / component after angular first displays the data - bound properties and sets the directive / component \'s  input properties'. it is called once after the first ngOnChanges() 
+		
+		- AfterContentChecked: it is called after the default change detector has completed checking all content of a directive
+		
+		- AfterContentInit: it calls after the component's content has been fully initialized and injected into components view. it also updates the properties decorated with the concentchild and contentchildren before raising this hook.
+		
+		- AfterViewChecked: is called after the default change detector has completed checking a components view for changes
+		
+		- AfterViewInit: it is called when the components view has been attached. the angular compiles all views into js files, not html - the framework manages a template in code and has a rendering engne to interact with the DOM 
+		
+		- DoCheck: that invokes a custom change-detection function for a directive. in addition to the check performed  by the default change-detector
+		
+		- OnChanges: it is used to respond when angular (re)sets data - bound input properties. this method receives a simplechanges object of a current and previous properties values. it is called before ngOnInit() and whenever one or more data bound input properties change.
+		
+		- OnDestroy: it can hooked into on components and directives, by defining this specific method, named as OnDestroy on our class, we are informing the angular runtime, that it should call our method at the appropriate time.
+				
+		- SimpleChanges: simplechanges in an angular feature, it is used to see the changes and a few more details of the declared property names in a component. and also it needs to be used in angular ngOnChanges() to see the values changes and to do relevant things
 
-
-
-
-
-
-
-
-
+-> which life cycle hooks wll be use at the time fetching the data into our components from restapi., 
+-> unit testing
 
 
 
