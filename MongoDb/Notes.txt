@@ -1,0 +1,14 @@
+-> MongoDB: 
+    - MongoDB is a NoSql Database
+    - NoSql - Maintaining the Data / Records in terms of Documents
+
+-> Install MongoDB: 
+    - https://www.mongodb.com/try/download/community
+    - Install along with Compass
+
+-> Create a package.json, Install the required Modules
+    - > npm init (-y)
+    - > npm install mongodb
+
+ 
+

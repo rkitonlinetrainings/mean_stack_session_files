@@ -94,4 +94,10 @@ session_13 (23rd dec, 2021 - thursday)
 
 session_14 (24th dec, 2021 - friday)
 -------------------------------------
+1. What is MongoDb? Installation
+2. Through Node, implemented the Operations
+3. Setting the MongoDB Connection, Creating the DB, Creating the Collection
+4. Inserting, Retrieving, Updating and Deleting the Documents
 
+session_15 (3rd jan, 2022 - monday)
+-------------------------------------
