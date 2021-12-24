@@ -1,5 +1,5 @@
 # pragati_holcim_angular_batch_dec7
-Ecmascript, Typescript, Angular - Training Coding Files
+Ecmascript, Typescript, Angular, MongoDB - Training Coding Files
 
 session_1 (7th dec, 2021 - tuesday)
 -------------------------------------
@@ -94,3 +94,13 @@ session_12 (22nd dec, 2021 - wednesday)
 session_13 (23rd dec, 2021 - thursday)
 -------------------------------------
 1. life cycle hooks (onchanges, oninit, etc.,)
+
+session_14 (24th dec, 2021 - friday)
+-------------------------------------
+1. What is mongodb? Installation
+2. Through node, implemented the operations
+3. Setting the mongodb connection, creating the db, creating the collection
+4. Inserting, retrieving, updating and deleting the documents
+
+session_15 (3rd jan, 2022 - monday)
+-------------------------------------
