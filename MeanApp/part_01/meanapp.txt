@@ -1,0 +1,68 @@
+-> mean app: 
+	-> angular (client)
+	-> node and express (server)
+	-> mongodb (database)
+	
+-> concept: we are creating the crud operations  - employee
+-> terminology (client):
+	-> HttpClientModule
+	
+	-> Routes
+	-> RouterModule
+	-> Router
+	-> ActivatedRoute
+	-> router-outlet
+	
+	-> Injectable
+	-> Observable
+	
+	-> throwError
+	-> catchError
+	
+	-> map
+	
+	-> HttpClient
+	-> HttpHeaders
+	-> HttpErrorResponse
+	
+	-> NgZone
+	
+-> step by step:
+	1. create a sample angular project
+	2. if you want, add bootstrap - npm install bootstrap@4.3.1
+	3. then, go to app.component.html - add the design with header and output part
+	4. we need to create three things: 1. components, 2. model, 3. service
+		create the three directories: components/, model/ and service/
+	5. create a model - Employee.ts in model/
+	6. create a service - api.service.ts in service/
+	7. under components/
+		1. employee-create
+		2. employee-edit
+		3. employee-list
+	8. we set the routes in app-routing.module.ts
+	9. started with employee-create component
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
