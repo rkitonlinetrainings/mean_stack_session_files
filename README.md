@@ -1,6 +1,3 @@
-# pragati_holcim_angular_batch_dec7
-Ecmascript, Typescript, Angular, MongoDB - Training Coding Files
-
 session_1 (7th dec, 2021 - tuesday)
 -------------------------------------
 1. ecmascript introduction, 
@@ -103,4 +100,8 @@ session_14 (24th dec, 2021 - friday)
 4. Inserting, retrieving, updating and deleting the documents
 
 session_15 (3rd jan, 2022 - monday)
+-------------------------------------
+1. dependency injection
+
+session_16 (4th jan, 2022 - tuesday)
 -------------------------------------
