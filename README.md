@@ -115,6 +115,6 @@ session_17 (5th jan, 2022 - wednesday)
 1. cont., with creating the three components of functionalists, htmls part
 2. edited the service file, 
 
-session_18 (6th jan, 2022 - wednesday)
+session_18 (6th jan, 2022 - thursday)
 -------------------------------------
 
