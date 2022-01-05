@@ -106,7 +106,15 @@ session_15 (3rd jan, 2022 - monday)
 session_16 (4th jan, 2022 - tuesday)
 -------------------------------------
 1. discussed how to create an angular project, run it in stackblitz with sample example of dependency injection
-2. started the concept of mean crud app., 
+2. started the concept of mean crud a., 
+3. created the angular app as a client., 
+4. created the model, service and components
 
 session_17 (5th jan, 2022 - wednesday)
 -------------------------------------
+1. cont., with creating the three components of functionalists, htmls part
+2. edited the service file, 
+
+session_18 (6th jan, 2022 - wednesday)
+-------------------------------------
+
