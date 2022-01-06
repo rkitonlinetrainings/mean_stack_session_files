@@ -1,0 +1,106 @@
+-> mean app: 
+	-> angular (client)
+	-> node and express (server)
+	-> mongodb (database)
+	
+-> concept: we are creating the crud operations  - employee
+-> terminology (client):
+	-> HttpClientModule
+	
+	-> Routes
+	-> RouterModule
+	-> Router
+	-> ActivatedRoute
+	-> router-outlet
+	
+	-> Injectable
+	-> Observable
+	
+	-> throwError
+	-> catchError
+	
+	-> map
+	
+	-> HttpClient
+	-> HttpHeaders
+	-> HttpErrorResponse
+	
+	-> NgZone
+	
+-> terminology (server / backend): 
+	-> nodemon: 
+		- nodemon is a command-line interface utility
+		- that wraps your node app
+		- watches the file system and automatically restarts the process
+		
+	-> body-parser: 
+		- the body-parser is the nodejs body parsing middleware
+		- it is responsible for parsing the incoming request bodies in the middleware before you handle it
+		
+	-> cors: 
+		- cors fullform - cross origin resource sharing
+		- it is an HTTP - Header based mechanism
+		- that allows a server to indicate any origin (domain, schema, port)
+		- other than its own from which a browser should permit loaded reesponses.
+		- for security reasons, browser restrict, cross-origin HTTP requests instatiated from scripts
+	
+	-> express: 
+		- express(js) is a backend web application framework for nodejs
+		- it is an open source
+		- it is designed for building web application and api's
+		- it has been called the de facto standard server framework for nodejs
+		
+	-> mogoose: 
+		- mongoose is a javascript object oriented programming library
+		- that createes a connection between mongodb and the express
+	
+	-> module.exports: 
+		- module.exports are the instructions that tells nodejs which bits of code (function, objects, strings, etc.,) to 'export' from a given file to other file are allowed to access the exported code
+
+-> step by step:
+	client part:
+	1. create a sample angular project
+	2. if you want, add bootstrap - npm install bootstrap@4.3.1
+	3. then, go to app.component.html - add the design with header and output part
+	4. we need to create three things: 1. components, 2. model, 3. service
+		create the three directories: components/, model/ and service/
+	5. create a model - Employee.ts in model/
+	6. create a service - api.service.ts in service/
+	7. under components/
+		1. employee-create
+		2. employee-edit
+		3. employees-list
+	8. we set the routes in app-routing.module.ts
+	9. started with employee-create component
+	10. done with employee-edit component 
+	11. done with employees-list component
+	12. we have updated the functions in api.service.ts
+	
+	server part: 
+	1. create an empty folder backend/
+	2. create package.json and add the dependencies
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
