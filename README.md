@@ -117,4 +117,9 @@ session_17 (5th jan, 2022 - wednesday)
 
 session_18 (6th jan, 2022 - thursday)
 -------------------------------------
+1. started with server / backend, 
+2. created the routes, models, server.js and database
+3. written all the required functionalists
 
+session_19 (7th jan, 2022 - friday)
+-------------------------------------
