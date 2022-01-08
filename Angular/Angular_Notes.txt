@@ -305,10 +305,7 @@ sessions from 13th dec - 17th dec
 		- eventemitter is really an angular abstraction and should be used only for emitting custom events in components
 		- otherwise, just we use 'rxjs' as if it was any other library
 		- use in components with the @output directive to emit custom event sync (or) async., and register handlers for those events by subscribing to an instance		
+		
 
-	
-	
-	
-	
 	
 	

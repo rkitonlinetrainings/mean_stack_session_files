@@ -123,3 +123,9 @@ session_18 (6th jan, 2022 - thursday)
 
 session_19 (7th jan, 2022 - friday)
 -------------------------------------
+1. executing the mean app, discuss about the mean app, and its flow of coding
+2. creating the custom modules
+3. started the concept of unit testing.,
+
+session_20 (10th jan, 2022 - monday)
+-------------------------------------
