@@ -1,0 +1,28 @@
+<h4>{{title}}</h4>
+
+<fieldset class="form-group">
+    <div class="row">
+        <label class="col-sm-4"> Name </label>
+        <div class="col-sm-6">
+            <input type="text" [(ngModel)]="personName" id="nameId" />
+        </div>
+    </div>
+</fieldset>
+
+<fieldset class="form-group">
+    <div class="row">
+        <label class="col-sm-4"> Age </label>
+        <div class="col-sm-6">
+            <input type="text" [(ngModel)]="personAge" id="ageId" />
+        </div>
+    </div>
+</fieldset>
+
+<hr />
+
+<div class="card card-primary">
+    <div class="card-body">
+        <div id="disName" class="card-title">{{personName}}</div>
+        <div id="disAge" class="card-text">{{personAge}}</div>
+    </div>
+</div>

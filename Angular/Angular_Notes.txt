@@ -306,6 +306,73 @@ sessions from 13th dec - 17th dec
 		- otherwise, just we use 'rxjs' as if it was any other library
 		- use in components with the @output directive to emit custom event sync (or) async., and register handlers for those events by subscribing to an instance		
 		
+-> unittest: 
+	- the unittest can also called as isolated test
+	- jasmine and karma:
+		- jasmine can be classified as a tool in the javascript testing framework.
+		- karma is grouped under 'browser testing', can be used for tdd
+		- and is a primary reason for developers consider jasmine
+	- ComponentFixture:  
+		- import { ComponentFixture } from '@angular/core/testing';
+		- you can create a component fixture with TestBed.
+		- createComponent have access to debugElement() which will give you the access to the internals of componentfixture.
+		- change detection, isn't done automatically, so you will call detectChanges() on a fixture to tell angular to run the change detection.
+	- debugElement: 
+		- the debugElement is an angular class that contains all kinds of references and methods relevant to investigate an element as well as component fixture. 
+		- the debugElement.query(By.css('#show'))
+	- TestBed: 
+		- TestBed is the primary api for writing unit tests for angular application and libraries
+		- it will be set to either TestBedViewEngine or TestBedRender3 according to the compiler used.
+	- describe(): 
+		- the describe(string, function)
+		- the function take a title and a function containing one or more spec's
+		- and these spec's are also known as testsuite.
+		- this function takes a string and function that containing one or more expectations and are also known as spec'saf
+	- beforeEach(): 
+		- beforeEach is a global function in jasmine that runs some setup code before each spec executes in testsuite
+		- the beforeEach is used to create a testing module using the TestBed object and declares any components that would be used in testing module.
+	- configureTestingModule(): 
+		- the angular component testing means to check the quality and performance of your compoments 
+		- angular compoment testing can be done maually by running the application
+		- and checking to see if a component's behavior is worked as exepected
+	- compileComponents(): 
+		- the compileComponents are acually not required, but because its just like that you are using the template and styles even though 
+	- componentInstance: 
+		- the instance of the root compoment class
+	- nativeElement: 
+		- any., 
+		- the native element at the root of the component class
+	- detectChanges(): 
+		- the detectChanges tells the angular application that run change-detection
+		- the detectChanges everytime it is called, updated the data.
+		- calling this function, will caused ngOnInit() to run only for the fist time.
+	- ElementRef: 
+		- in angular the ElementRef is a wrapper around a native DOM element object
+		- it contains the property nativeElement, which holds the reference to thr underlaying the DOM object
+		- we can use it to manipulate the DOM.
+		- we use the ViewChild to get the ElementRef an HTML element in the compoment class
+	- dispatchEvent(): 
+		- the dispatchEvent() of the EventTarget sends an Event to the object, (sync.,) invoking the affected EventListeners in the appropriate order., 
+		- all appilcable event handlers are called and return before dispatchEvent() returns
+	- querySelector(): 
+		- the querySelector method that returns the first element that matches a specified CSS selector(s) in the document.
+	- whenStable(): 
+		- whenStable will do when inside of a fakeAsyn execution zone as an Async zone should keep track of async work
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	
