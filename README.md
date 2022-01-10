@@ -129,3 +129,6 @@ session_19 (7th jan, 2022 - friday)
 
 session_20 (10th jan, 2022 - monday)
 -------------------------------------
+1. understanding the concept of unit test
+2. its terminology and definitions
+3. creating the component and executing the unittest code
